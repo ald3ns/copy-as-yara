@@ -12,7 +12,7 @@ To copy the disassembly you desire, select it regardless of the view. Next, navi
 
 ## Demo:
 
-<video src="/Users/alden/Library/Application Support/Binary Ninja/plugins/copy-as-yara/docs/copy_for_yara_usage.mp4"></video>
+![demo](/Users/alden/Library/Application Support/Binary Ninja/plugins/copy-as-yara/docs/demo.gif)
 
 ## License
 
