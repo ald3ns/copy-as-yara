@@ -121,15 +121,15 @@ def copy_as_yara(bv: BinaryView, wildcarding: bool = False) -> None:
                     )
                     mnemonics.append(str(inst))
 
-    # Build the pretty yara text
-    padding = max([len(i) for i in opcodes]) + 1
-    to_return = ""
-    for op, pnu in zip(opcodes, mnemonics):
-        to_return += f"{op}{' ' * (padding - len(op))} // {pnu} \n"
+        # Build the pretty yara text
+        padding = max([len(i) for i in opcodes]) + 1
+        to_return = ""
+        for op, pnu in zip(opcodes, mnemonics):
+            to_return += f"{op}{' ' * (padding - len(op))} // {pnu} \n"
 
-    # Copy to the clipboard
-    clip = QGuiApplication.clipboard()
-    clip.setText(f"{to_return}")
+        # Copy to the clipboard
+        clip = QGuiApplication.clipboard()
+        clip.setText(f"{to_return}")
 
 
 def run(bv: BinaryView) -> None:
