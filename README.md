@@ -1,12 +1,18 @@
-# Copy As Yara
+# Copy as YARA
 Author: **alden (birch)**
 
 _Copy disassembly nicely formatted for YARA rules._
 
 ## Description:
-This is a longer description meant for a sample plugin that demonstrates the metadata format for Binary Ninja plugins. Note that the [community-plugins repo](https://github.com/Vector35/community-plugins) contains a useful [utility](https://github.com/Vector35/community-plugins/blob/master/generate_plugininfo.py) to validate the plugin.json. Additionally, the [release helper](https://github.com/Vector35/release_helper) plugin is helpful for more easily pushing new releases, incrementing versions, and creating the appropriate GitHub tags.
+This is a really simple plugin that allows you to copy disassembly in a way that can be used in [YARA](https://virustotal.github.io/yara/) rules. You have the option to either copy the assembly code as it is or use address wildcarding to create more robust rules.
 
-Note that originally we recommended specifying the contents of this entire file inside of the [plugin.json](./plugin.json) but the latest repository generator will use the readme contents directly which means you should simply leave an empty longdescription field. 
+## Usage:
+
+To copy the disassembly you desire, select it regardless of the view. Next, navigate to Plugins > Copy for YARA > [Choose between Wildcard Addresses or Normal]. The resulting formatted text will then be automatically copied to your clipboard.
+
+## Demo:
+
+<video src="/Users/alden/Library/Application Support/Binary Ninja/plugins/copy-as-yara/docs/copy_for_yara_usage.mp4"></video>
 
 ## License
 

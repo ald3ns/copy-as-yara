@@ -1,5 +1,9 @@
 import struct
 
+"""
+This is the original script I wrote while noodling around with this, mostly just here for reference :) 
+"""
+
 opcodes = []
 pneumonics = []
 

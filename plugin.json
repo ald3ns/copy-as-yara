@@ -11,19 +11,13 @@
   },
   "platforms": ["Darwin", "Linux", "Windows"],
   "installinstructions": {
-    "Darwin": "Install the following pip packages: ...\n\nInstall the following brew packages: ...",
-    "Linux": "Install the following pip packages: ...\n\nInstall the following apt packages: ...",
-    "Windows": "Install the following pip packages: ...\n\nInstall the following libraries: ..."
+    "Darwin": "No special instructions, no dependencies!",
+    "Linux": "No special instructions, no dependencies!",
+    "Windows": "No special instructions, no dependencies!"
   },
   "dependencies": {
-    "pip": [""],
-    "apt": [""],
-    "installers": [""],
-    "other": [
-      "The sample plugin requires [this random package](https://bogus-domain/this-package/) be installed."
-    ]
   },
-  "version": "1.3.5",
-  "author": "Alden",
+  "version": "1.0.0",
+  "author": "alden (@birchb0y)",
   "minimumbinaryninjaversion": 3164
 }

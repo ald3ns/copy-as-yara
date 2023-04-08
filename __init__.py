@@ -51,7 +51,7 @@ def setup_globals(context) -> dict:
 
 def copy_as_yara(bv: BinaryView, wildcarding: bool = False) -> None:
     """
-
+    Create the YARA formatted text and copy it to the clipboard.
     :param bv: the binary view provided when plugin is called
     :param wildcarding: do the wildcard replacing for bytes?
     :return: None
